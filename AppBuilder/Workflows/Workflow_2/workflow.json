@@ -1,0 +1,145 @@
+{
+  "Id": 2,
+  "EnvironmentId": 0,
+  "NamespaceId": 3,
+  "Name": "A sample Workflow",
+  "Description": "",
+  "IsDebug": false,
+  "ActionList": {
+    "Id": 4,
+    "EventName": "Event",
+    "Actions": [
+      {
+        "Id": 7,
+        "Description": "",
+        "ActionErrorMessage": "",
+        "Condition": "",
+        "ActionType": "PlantAnApp.ExecuteConditionally",
+        "OrderIndex": 0,
+        "ActionParameters": [
+          {
+            "Id": 11,
+            "Name": "ConditionedActions",
+            "Value": [
+              {
+                "Condition": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "[option] == 'Normal'"
+                },
+                "Actions": {
+                  "Id": 5,
+                  "EventName": "click",
+                  "Actions": [
+                    {
+                      "Id": 8,
+                      "ActionType": "InjectData",
+                      "OrderIndex": 0,
+                      "ActionParameters": [
+                        {
+                          "Id": 13,
+                          "Name": "Data",
+                          "Value": [
+                            {
+                              "value": "[word1] [word2]",
+                              "name": "result"
+                            }
+                          ],
+                          "IsExpression": false,
+                          "ActionId": 8,
+                          "OrderIndex": 0
+                        }
+                      ],
+                      "DiagramUID": "Activity_1uqldb6"
+                    }
+                  ]
+                }
+              },
+              {
+                "Condition": {
+                  "IsExpression": false,
+                  "Expression": "",
+                  "Value": "[option] == 'Reverse'"
+                },
+                "Actions": {
+                  "Id": 6,
+                  "EventName": "click",
+                  "Actions": [
+                    {
+                      "Id": 9,
+                      "ActionType": "InjectData",
+                      "OrderIndex": 0,
+                      "ActionParameters": [
+                        {
+                          "Id": 16,
+                          "Name": "Data",
+                          "Value": [
+                            {
+                              "value": "[word2] [word1]",
+                              "name": "result"
+                            }
+                          ],
+                          "IsExpression": false,
+                          "ActionId": 9,
+                          "OrderIndex": 0
+                        }
+                      ],
+                      "DiagramUID": "Activity_0egptuq"
+                    }
+                  ]
+                }
+              }
+            ],
+            "IsExpression": false,
+            "ActionId": 7,
+            "OrderIndex": 0
+          }
+        ],
+        "DiagramUID": "Gateway_0o6kavt"
+      }
+    ]
+  },
+  "CreatedBy": "Savanah Black",
+  "CreatedOn": "2021-05-03T16:37:41.9757197+00:00",
+  "LastModifiedBy": "Savanah Black",
+  "LastModifiedOn": "2021-06-28T16:42:24.2932779+00:00",
+  "InputFields": [
+    {
+      "Required": false,
+      "DefaultValue": "Hello",
+      "Id": 3,
+      "Name": "word1",
+      "InputType": "Text",
+      "WorkflowId": 2,
+      "IsDeleted": false
+    },
+    {
+      "Required": false,
+      "DefaultValue": "World",
+      "Id": 4,
+      "Name": "word2",
+      "InputType": "Text",
+      "WorkflowId": 2,
+      "IsDeleted": false
+    },
+    {
+      "Required": false,
+      "DefaultValue": "Normal",
+      "Id": 5,
+      "Name": "option",
+      "InputType": "Text",
+      "WorkflowId": 2,
+      "IsDeleted": false
+    }
+  ],
+  "OutputFields": [
+    {
+      "Value": "[Result]",
+      "Id": 6,
+      "Name": "words",
+      "InputType": "Text",
+      "WorkflowId": 2,
+      "IsDeleted": false
+    }
+  ]
+}
