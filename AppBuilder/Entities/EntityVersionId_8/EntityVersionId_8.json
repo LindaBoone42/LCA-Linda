@@ -1,0 +1,15 @@
+{
+  "DisplayInMenu": false,
+  "ParentPageId": 52,
+  "RecordNamePropertyId": 16,
+  "ShowDashboardModule": false,
+  "Id": 8,
+  "VersionId": 8,
+  "EntityTabId": 50,
+  "Name": "Activity Type",
+  "PluralName": "Activity Types",
+  "Icon": "align-justify",
+  "NamespaceId": 3,
+  "Type": "UserCreated",
+  "EnableIndexing": false
+}
