@@ -1,0 +1,46 @@
+{
+  "Name": "AnErroringAPI",
+  "Description": "Designed to error to test log",
+  "HttpMethod": "GET",
+  "IsEnabled": true,
+  "OrderIndex": 0,
+  "CrossDomainPolicy": "Public",
+  "Inputs": [],
+  "Actions": [
+    {
+      "ActionType": "SendMail",
+      "OrderIndex": 0,
+      "Parameters": {
+        "From": "",
+        "To": "",
+        "DetermineEmail": "",
+        "ToAllUsers": "",
+        "ReplyTo": "",
+        "Cc": "",
+        "Bcc": "",
+        "Subject": "",
+        "Format": {
+          "Expression": "",
+          "Value": "Html",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "DnnEmailTemplate": {
+          "Expression": "",
+          "Value": "",
+          "IsExpression": false,
+          "Parameters": {}
+        },
+        "Body": "",
+        "Headers": "",
+        "PortalFiles": "",
+        "FileToken1": "",
+        "IgnoreErros": ""
+      },
+      "IsEnabled": true,
+      "ExecutionType": "OnExecute",
+      "Metadata": {}
+    }
+  ],
+  "OnErrorActions": []
+}
