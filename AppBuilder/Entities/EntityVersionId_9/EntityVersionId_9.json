@@ -1,0 +1,15 @@
+{
+  "DisplayInMenu": false,
+  "ParentPageId": 44,
+  "RecordNamePropertyId": 19,
+  "ShowDashboardModule": false,
+  "Id": 9,
+  "VersionId": 9,
+  "EntityTabId": 52,
+  "Name": "Activity",
+  "PluralName": "Activities",
+  "Icon": "user-clock",
+  "NamespaceId": 3,
+  "Type": "UserCreated",
+  "EnableIndexing": false
+}
