@@ -1,0 +1,17 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 29,
+  "ShowDashboardModule": true,
+  "Id": 10,
+  "VersionId": 10,
+  "EntityTabId": 61,
+  "Name": "AllField",
+  "PluralName": "AllFields",
+  "CreatedDate": "2021-07-29T11:26:03.6833333",
+  "CreatedBy": "Savanah Black",
+  "Icon": "ambulance",
+  "NamespaceId": 4,
+  "Type": "UserCreated",
+  "EnableIndexing": true
+}
