@@ -1,0 +1,29 @@
+<module type="ActionGrid" version="05.15.25.00">
+    <moduleID>448</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod>MemoryModuleCachingProvider</cachemethod>
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>false</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <modulepermissions />
+    <title>Users Grid</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>10e88c06-4d7d-46de-996c-e5ff5b66fd6d</uniqueId>
+    <visibility>Maximized</visibility>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>Action Grid</definition>
+    <moduledefinition>avt.ActionGrid</moduledefinition>
+    <content type="ActionGrid" version="05.15.25.00"><![CDATA[&lt;ActionGrid /&gt;]]></content>
+</module>
