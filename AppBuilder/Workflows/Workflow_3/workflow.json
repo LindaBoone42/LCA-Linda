@@ -169,7 +169,7 @@
   "CreatedBy": "Savanah Black",
   "CreatedOn": "2021-05-03T18:07:02.5773295+00:00",
   "LastModifiedBy": "Savanah Black",
-  "LastModifiedOn": "2021-07-29T11:39:20.4376561+00:00",
+  "LastModifiedOn": "2021-07-29T11:44:29.8499683+00:00",
   "InputFields": [
     {
       "Required": false,
@@ -201,14 +201,6 @@
       "Id": 10,
       "Name": "Detail",
       "InputType": "LargeText",
-      "WorkflowId": 3,
-      "IsDeleted": false
-    },
-    {
-      "Required": false,
-      "Id": 11,
-      "Name": "Name",
-      "InputType": "Text",
       "WorkflowId": 3,
       "IsDeleted": false
     }
