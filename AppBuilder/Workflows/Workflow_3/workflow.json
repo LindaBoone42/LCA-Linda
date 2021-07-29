@@ -123,38 +123,6 @@
             "OrderIndex": 0
           },
           {
-            "Id": 29,
-            "Name": "Name",
-            "Value": "[Name=[Type:Name]]",
-            "IsExpression": false,
-            "ActionId": 12,
-            "OrderIndex": 0
-          },
-          {
-            "Id": 30,
-            "Name": "Details",
-            "Value": "[Detail]",
-            "IsExpression": false,
-            "ActionId": 12,
-            "OrderIndex": 0
-          },
-          {
-            "Id": 31,
-            "Name": "Type",
-            "Value": "[Type:ID]",
-            "IsExpression": false,
-            "ActionId": 12,
-            "OrderIndex": 0
-          },
-          {
-            "Id": 32,
-            "Name": "User",
-            "Value": "[CurrentUser]",
-            "IsExpression": false,
-            "ActionId": 12,
-            "OrderIndex": 0
-          },
-          {
             "Id": 33,
             "Name": "OutputToken",
             "Value": "ActivityID",
@@ -201,7 +169,7 @@
   "CreatedBy": "Savanah Black",
   "CreatedOn": "2021-05-03T18:07:02.5773295+00:00",
   "LastModifiedBy": "Savanah Black",
-  "LastModifiedOn": "2021-05-03T19:00:11.3463815+00:00",
+  "LastModifiedOn": "2021-07-29T11:21:55.4707695+00:00",
   "InputFields": [
     {
       "Required": false,
